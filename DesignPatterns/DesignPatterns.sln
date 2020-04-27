@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{70B9A2F2-01A0-4220-B880-60CEB2136E09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryDesignPattern", "FactoryDesignPattern", "{838E65D3-8E8F-4642-92C6-7485CE15FFCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70B9A2F2-01A0-4220-B880-60CEB2136E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B9A2F2-01A0-4220-B880-60CEB2136E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B9A2F2-01A0-4220-B880-60CEB2136E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B9A2F2-01A0-4220-B880-60CEB2136E09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70B9A2F2-01A0-4220-B880-60CEB2136E09} = {838E65D3-8E8F-4642-92C6-7485CE15FFCE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B563CA0-5C96-4866-9EEC-D7DB522C7FF3}
+	EndGlobalSection
+EndGlobal
