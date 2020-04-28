@@ -1,5 +1,8 @@
 
-function updateText(){
+
+
+
+updateText = () => {
   let text =  document.getElementById('text-input').value;
   document.getElementById('text-output').innerText = text;
 }
@@ -7,7 +10,7 @@ function updateText(){
  /**
  * Toggle the bold class for the output text
  */
-function makeBold(elem){
+makeBold = (elem) => {
   elem.classList.toggle('active');
   document.getElementById('text-output').classList.toggle('bold');
 }
@@ -15,7 +18,7 @@ function makeBold(elem){
 /**
  * Toggle the italic class for the output text
  */
-function makeItalic(elem){
+makeItalic=(elem)=>{
   elem.classList.toggle('active');
   document.getElementById('text-output').classList.toggle('italic');
 }
@@ -43,10 +46,9 @@ function makeUnderline(elem){
 function alignText(elem, alignType){
   document.getElementById('text-output').style.textAlign = alignType 
   let alignButtons = document.getElementsByClassName('align');
-  for(let i = 0; i< alignButtons.length; i++)
+  for(let button of alignButtons)
   {
-    alignButtons[i].classList.remove('active');
+    button.classList.remove('active');
   }
-  console.log(elem);
   elem.classList.toggle('active');
 }
