@@ -38,7 +38,7 @@ namespace MusicStore.DiscountEngine.UnitTest
             // Act
             var discountPercentage = Engine.GetDiscountForCartItems(items);
             // Assert
-            Assert.AreEqual(15, discountPercentage);
+            Assert.AreEqual(5, discountPercentage);
         }
 
         [TestMethod]
