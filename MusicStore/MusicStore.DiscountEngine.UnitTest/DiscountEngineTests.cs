@@ -28,6 +28,7 @@ namespace MusicStore.DiscountEngine.UnitTest
         //when I buy an album in rock and metal category I get 5% discount,
         //if I have not received any other discounts
         [TestMethod]
+        [TestCategory("Integration")]
         public void Buy_Album_in_rock_and_metal_and_get_5_percent_Discount()
         {
             var items = new List<Cart>();
